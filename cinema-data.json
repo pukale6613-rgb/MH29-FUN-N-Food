@@ -1,0 +1,65 @@
+{
+  "updatedAt": "2026-09-24T10:00:00+05:30",
+  "movies": [
+    {
+      "title": "Manjar",
+      "language": "Marathi",
+      "showtimes": [
+        "10:00 AM"
+      ]
+    },
+    {
+      "title": "Daayra",
+      "language": "Hindi",
+      "showtimes": [
+        "12:00 PM"
+      ]
+    },
+    {
+      "title": "Mirzapur: The Movie",
+      "language": "Hindi",
+      "showtimes": [
+        "12:00 PM",
+        "09:30 PM"
+      ]
+    },
+    {
+      "title": "VIBE",
+      "language": "Hindi",
+      "showtimes": [
+        "03:30 PM"
+      ]
+    },
+    {
+      "title": "The Paradise",
+      "language": "Hindi",
+      "showtimes": [
+        "03:45 PM",
+        "06:45 PM",
+        "10:00 PM"
+      ]
+    },
+    {
+      "title": "Resident Evil",
+      "language": "Hindi",
+      "showtimes": [
+        "05:00 PM"
+      ]
+    },
+    {
+      "title": "Hanuman Ansh",
+      "language": "Hindi",
+      "showtimes": [
+        "06:30 PM",
+        "09:45 PM"
+      ]
+    },
+    {
+      "title": "Bandkhor",
+      "language": "Marathi",
+      "showtimes": [
+        "07:00 PM"
+      ]
+    }
+  ]
+}

@@ -54,8 +54,21 @@
 <section id="cinema" class="section dark-section">
   <div class="container">
     <div class="split">
-      <div><p class="eyebrow">THE MINIPLEX</p><h2>The Premium Miniplex Experience</h2><p class="lead">A comfortable and immersive movie experience for friends and families.</p>
-      <a class="btn primary" target="_blank" rel="noopener" href="https://in.bookmyshow.com/cinemas/yavatmal/mh29-fun-n-food-miniplex-yavatmal/buytickets/MHFF/">Book Tickets Online</a></div>
+      <div>
+        <p class="eyebrow">THE MINIPLEX</p>
+        <h2>The Premium Miniplex Experience</h2>
+        <p class="lead">A comfortable and immersive movie experience for friends and families.</p>
+        <div class="screenings-box" aria-live="polite">
+          <div class="screenings-header">
+            <div><p class="eyebrow">CURRENT / RECENT SCREENINGS</p><h3>Now Showing</h3></div>
+            <span id="movie-updated" class="live-badge">Updating…</span>
+          </div>
+          <div id="movie-list" class="movie-list"></div>
+          <p id="movie-status" class="movie-status">Loading current screenings…</p>
+          <p class="screening-note">Listings are refreshed automatically from the cinema data feed. For exact showtimes, seat availability and booking, use BookMyShow.</p>
+        </div>
+        <a class="btn primary" target="_blank" rel="noopener" href="https://in.bookmyshow.com/cinemas/yavatmal/mh29-fun-n-food-miniplex-yavatmal/buytickets/MHFF/">🎟 Book Tickets Online</a>
+      </div>
       <div class="feature-grid">
         <div class="feature"><b>🛋</b><h3>Luxurious Seating</h3><p>Plush, spacious seating designed for comfort throughout the movie.</p></div>
         <div class="feature"><b>🔊</b><h3>JBL Sound</h3><p>JBL sound with deep-bass tuning for an immersive cinematic experience.</p></div>
@@ -133,6 +146,7 @@
   </div>
   <div class="copyright">© <span id="year"></span> Majista's MH29 Fun N Food. All rights reserved.</div>
 </footer>
+<script>window.MH29_CINEMA={bookingUrl:"https://in.bookmyshow.com/cinemas/yavatmal/mh29-fun-n-food-miniplex-yavatmal/buytickets/MHFF/",dataUrl:"cinema-data.json"};</script>
 <script src="script.js"></script>
 </body>
 </html>
